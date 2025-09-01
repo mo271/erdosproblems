@@ -6,7 +6,7 @@ from ruamel.yaml import YAML
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "problems.yaml"
-API_URL = "https://api.github.com/repos/google-deepmind/formal-conjectures/git/trees/main?recursive=1"
+API_URL = "https://api.github.com/repos/mo271/formal-conjectures/git/trees/main?recursive=1"
 FILE_PREFIX = "FormalConjectures/ErdosProblems/"
 
 def fetch_formalized_problem_numbers():
